@@ -44,11 +44,11 @@ class _MyHomePageState extends State<MyHomePage> {
         type: BottomNavigationBarType.shifting,
         iconSize: 30,
         items: [
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.home),
-          //   label: 'Home',
-          //   backgroundColor: Colors.pink,
-          // ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+            backgroundColor: Colors.pink,
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.create),
             label: 'Datafrom',
